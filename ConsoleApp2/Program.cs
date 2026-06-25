@@ -1,15 +1,23 @@
 ﻿namespace ConsoleApp2
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     class Program
     {
         static void Main(string[] args)
         {
+            if (args.Length == 0)
+            {
+                Console.WriteLine("No arguments provided.");
+            }
+            else
+            {
+                Console.WriteLine("Arguments provided:");
+                foreach (var arg in args)
+                {
+                    Console.WriteLine(arg);
+                }
+            }
         }
     }
 }
