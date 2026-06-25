@@ -1,3 +1,6 @@
 [submodule "Sub-repo1"]
 	path = ConsoleApp11-0625
 	url = https://github.com/Alice-2024/ConsoleApp11-0625
+[submodule "Sub-repo2"]
+	path = ConsoleApp9-0624
+	url = https://github.com/Alice-2024/ConsoleApp9-0624
