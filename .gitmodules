@@ -4,3 +4,6 @@
 [submodule "Sub-repo2"]
 	path = ConsoleApp9-0624
 	url = https://github.com/Alice-2024/ConsoleApp9-0624
+[submodule "GHRepo-test1"]
+	path = GHRepo-test1
+	url = https://github.com/Alice-2024/GHRepo-test1
